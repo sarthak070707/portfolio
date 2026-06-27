@@ -33,23 +33,6 @@ const projects: Project[] = [
     github: "https://github.com/sarthak070707/dev-verify",
   },
   {
-    title: "RAG-Chain",
-    description:
-      "Retrieval-augmented Q&A over your own PDFs, grounded with sources to cut hallucination.",
-    image: "/ragchain.png",
-    tags: ["Python", "LangChain", "ChromaDB", "Gemini"],
-    github: "https://github.com/sarthak070707/RAG-Chain",
-  },
-  {
-    title: "IntradayBot",
-    description:
-      "Algorithmic intraday signal engine for NSE with a 6-state regime gatekeeper.",
-    image: "/intradaybot.png",
-    tags: ["Next.js", "TypeScript", "Zustand", "Prisma"],
-    live: "https://regime-trading-engine.space-z.ai",
-    github: "https://github.com/sarthak070707/Regime-trading-engine",
-  },
-  {
     title: "Speech Data Pipeline",
     description:
       "Turns raw audio/video into structured speech-model training data, built for batch runs.",
@@ -65,6 +48,23 @@ const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "NLP / LLM"],
     live: "https://gapscope-market-intelligence.vercel.app",
     github: "https://github.com/sarthak070707/gapscope-market-intelligence",
+  },
+  {
+    title: "RAG-Chain",
+    description:
+      "Retrieval-augmented Q&A over your own PDFs, grounded with sources to cut hallucination.",
+    image: "/ragchain.png",
+    tags: ["Python", "LangChain", "ChromaDB", "Gemini"],
+    github: "https://github.com/sarthak070707/RAG-Chain",
+  },
+  {
+    title: "IntradayBot",
+    description:
+      "Algorithmic intraday signal engine for NSE with a 6-state regime gatekeeper.",
+    image: "/intradaybot.png",
+    tags: ["Next.js", "TypeScript", "Zustand", "Prisma"],
+    live: "https://regime-trading-engine.space-z.ai",
+    github: "https://github.com/sarthak070707/Regime-trading-engine",
   },
 ];
 
