@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 export function Intro() {
   return (
-    <section id="intro" className="w-full px-6 sm:px-10 pt-24 md:pt-28 pb-4 scroll-mt-20">
-      <div className="max-w-[860px] mx-auto">
+    <section id="intro" className="w-full px-6 sm:px-10 pt-20 md:pt-24 pb-4 scroll-mt-20">
+      <div className="max-w-[760px] mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.7 }}
-          className="text-xl sm:text-2xl md:text-[2rem] md:leading-[1.5] leading-relaxed font-medium"
+          className="text-lg sm:text-xl md:text-2xl leading-relaxed md:leading-relaxed font-medium"
           style={{ color: "var(--cream)" }}
         >
           I don&apos;t wait for graduation, permission, or the perfect plan to build
