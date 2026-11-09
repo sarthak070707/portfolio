@@ -17,11 +17,29 @@ const projects: Project[] = [
   {
     title: "StockSahi",
     description:
-      "Live NSE stock-research app with 53 indicators and paper trading — educate, never advise.",
+      "Live NSE paper-trading app with real broker charges matched to the paisa — educate, never advise.",
     image: "/stocksahi.png",
     tags: ["Next.js", "React", "TypeScript", "Node.js", "Tailwind"],
     live: "https://stocksahi.vercel.app",
     github: "https://github.com/sarthak070707/stocksahi",
+  },
+  {
+    title: "Brand X Dealer Platform",
+    description:
+      "Dealer website and staff console from a client brief (sample data): on-road price by city, test-drive booking, lead inbox.",
+    image: "/brandx.webp",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Auth.js"],
+    live: "https://brandx-dealer.vercel.app",
+    github: "https://github.com/sarthak070707/brandx-dealer",
+  },
+  {
+    title: "AI Assessment System",
+    description:
+      "Exam platform that auto-grades MCQ, code and written answers, reports its confidence, and sends uncertain scores to a human.",
+    image: "/assessment.png",
+    tags: ["FastAPI", "React", "PostgreSQL", "Groq"],
+    live: "https://ai-assessment-system-sepia.vercel.app",
+    github: "https://github.com/sarthak070707/ai-assessment-system",
   },
   {
     title: "DevVerify",
@@ -33,14 +51,6 @@ const projects: Project[] = [
     github: "https://github.com/sarthak070707/dev-verify",
   },
   {
-    title: "Speech Data Pipeline",
-    description:
-      "Turns raw audio/video into structured speech-model training data, built for batch runs.",
-    image: "/speech.png",
-    tags: ["Python", "FFmpeg", "pyannote", "HuggingFace"],
-    github: "https://github.com/sarthak070707/speech-data-pipeline",
-  },
-  {
     title: "GapScope",
     description:
       "AI market-intelligence tool that surfaces underserved startup opportunities and gaps.",
@@ -50,21 +60,12 @@ const projects: Project[] = [
     github: "https://github.com/sarthak070707/gapscope-market-intelligence",
   },
   {
-    title: "RAG-Chain",
+    title: "Speech Data Pipeline",
     description:
-      "Retrieval-augmented Q&A over your own PDFs, grounded with sources to cut hallucination.",
-    image: "/ragchain.png",
-    tags: ["Python", "LangChain", "ChromaDB", "Gemini"],
-    github: "https://github.com/sarthak070707/RAG-Chain",
-  },
-  {
-    title: "IntradayBot",
-    description:
-      "Algorithmic intraday signal engine for NSE with a 6-state regime gatekeeper.",
-    image: "/intradaybot.png",
-    tags: ["Next.js", "TypeScript", "Zustand", "Prisma"],
-    live: "https://regime-trading-engine.space-z.ai",
-    github: "https://github.com/sarthak070707/Regime-trading-engine",
+      "Turns raw audio/video into structured speech-model training data, built for batch runs.",
+    image: "/speech.png",
+    tags: ["Python", "FFmpeg", "pyannote", "HuggingFace"],
+    github: "https://github.com/sarthak070707/speech-data-pipeline",
   },
 ];
 
