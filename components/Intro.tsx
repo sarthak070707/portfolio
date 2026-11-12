@@ -26,9 +26,10 @@ export function Intro() {
           className="mt-6 text-base sm:text-lg leading-relaxed max-w-[640px]"
           style={{ color: "var(--cream-dim)" }}
         >
-          Over the last year I&apos;ve shipped six products solo: live market tools,
-          an AI retrieval system, a speech pipeline — things that are actually online
-          and working, not slide-deck demos. I care as much about the decisions behind
+          Over the last year I&apos;ve shipped six products solo: a live paper-trading
+          app, a dealership platform, an AI exam grader, a résumé verifier and more —
+          things that are actually online and working, not slide-deck demos. I care as
+          much about the decisions behind
           a product as the code that makes it run. Everything below is real, and most
           of it took breaking things at 2&nbsp;a.m. to get right.
         </motion.p>
